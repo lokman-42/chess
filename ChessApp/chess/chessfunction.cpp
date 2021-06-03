@@ -23,7 +23,7 @@ void chessfunction::gameRoutine()
      Game routine, board üzerindeki taşların teklike durumlarına göre puanlarının hesaplandığı fonksiyondur.
      Board baştan sona taranarak indexlerde bulunan taşların renk ve tipine göre puan hesapları yapılmaktadır.
      Board tamamen tarandıktan sonra, siyah ve beyaz taşlar için toplam puana göre kazanan belirlenmektedir.
-     NOTE : SADECE AT VE FIL DURUMLARI ELE ALAINDI. DIGER DURUMLAR DEMARKE EDILDI.
+     NOTE : SADECE AT VE FIL DURUMLARI ELE ALINDI. DIGER DURUMLAR DEMARKE EDILDI.
     */
 
     for (qint16 indexX = 0; indexX < 8; ++indexX) {
